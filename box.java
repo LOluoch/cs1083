@@ -6,7 +6,7 @@ public class printBox {
        box();
 }
 
-public static void box(){ // 12 by 7 box
+public static void box(){ 
     printAsterisks();
     for (int i=1; i<=(BOX_HEIGHT-2); i++)
         printAsteriskSpacestAsterisk();
