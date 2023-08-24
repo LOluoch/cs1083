@@ -42,9 +42,9 @@ public class PrintStars2 {
         //Pyramid
         System.out.println();
         for (int row = 1; row <= 6; row++) {
-            for (int column = row; column < 6; column++) 
+            for (int column = row; column < 6; column++) //loop to print preceding spaces from top row to bottom
                 System.out.print(" ");
-            for (int k=1;k<row*2;k++)
+            for (int k=1;k<row*2;k++) //loop to increase stars printed by 2 on each row top to bottom
                 System.out.print("*");
             System.out.print("\n");
             
