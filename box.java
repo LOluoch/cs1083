@@ -1,9 +1,9 @@
-public class Box {
+public class printBox {
     public static void main(String[] args) {
        Box();
 }
 
-public static void Box(){ // 12 by 7 box
+public static void box(){ // 12 by 7 box
     printAsterisks();
     for (int i=1; i<=5; i++)
         printAsteriskSpacestAsterisk();
