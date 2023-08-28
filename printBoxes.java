@@ -1,6 +1,14 @@
+//This java package contains the Scanner class
+import java.util.*;
+
 public class printBoxes {
+    public static final Scanner CONSOLE = new Scanner(System.in);
    public static void main(String[] args) {
-      drawBox(15,20);
+       System.out.println("What is the box width?");
+        int width = CONSOLE.nextInt();
+        System.out.println("What is the box height?");
+        int height = CONSOLE.nextInt();
+      drawBox(height,width);
    }
 
    public static void drawBox(int height, int width) {
