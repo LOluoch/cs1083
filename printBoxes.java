@@ -20,9 +20,7 @@ public class printBoxes {
        for (int i = 1; i<=height -2;i++){
  // A. Print a line with a star, width - 2 spaces, and a star.
            System.out.print("*");
-           for (int x = 1; x <=width-2; x++){
-           System.out.print(" ");
-           }
+           writeChars(' ', width);
            System.out.print("*");
         System.out.println();
        }
@@ -35,5 +33,10 @@ public class printBoxes {
         System.out.print("*");
     System.out.println( );
 }
+    public static void writeChars(char x, int y){
+        for (int z = 1; z <=y-2; z++)
+           System.out.print(x);
+           
+    }
 
 }
