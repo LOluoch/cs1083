@@ -14,12 +14,13 @@ public class Main {
         counter1++;
       for(n = n-1; n>1; n/=1.01) //stops at n=1
       {
+          System.out.println("n = " +n);
         array[n-1] = array[n]; //shift left?
         counter2++;
       }
     }
-     System.out.println(counter1);
-     System.out.println(counter2);
+     System.out.println("loop1 = " + counter1);
+     System.out.println("loop2 = " + counter2);
    }
 
   }
